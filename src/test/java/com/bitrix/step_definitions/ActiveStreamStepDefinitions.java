@@ -84,8 +84,66 @@ public class ActiveStreamStepDefinitions {
         Thread.sleep(2000);
         activeStreamPage.selectDocument.click();
         Thread.sleep(5000);
-        activeStreamPage.sendButton.click();
-        Thread.sleep(1000);
+
+
+        //  activeStreamPage.sendButton.click();
+        //  Thread.sleep(1000);
+
+    }
+
+
+    @Then("user clicks select contact button")
+    public void userClicksSelectContactButton() {
+        activeStreamPage.selectContactButton.click();
+    }
+
+    @Then("user clicks recent button")
+    public void userClicksRecentButton() throws InterruptedException {
+        Thread.sleep(2000);
+        activeStreamPage.recentContactListElement.click();
+    }
+
+    @Then("user clicks employees and departments button")
+    public void userClicksEmployeesAndDepartmentsButton() {
+        activeStreamPage.employeesAndDepartmentsElement.click();
+    }
+
+    @Then("user clicks random email")
+    public void userClicksRandomEmail() throws InterruptedException {
+        Thread.sleep(2000);
+        activeStreamPage.randomEmail.click();
+    }
+
+    @Then("user clicks emailUsers button")
+    public void userClicksEmailUsersButton() throws InterruptedException {
+        Thread.sleep(2000);
+        activeStreamPage.emailUsersButton.click();
+        activeStreamPage.inputBoxElement.sendKeys("email@email.com");
+        Thread.sleep(2000);
+
+        activeStreamPage.inviteEmailUserNameButton.sendKeys("email");
+        activeStreamPage.inviteEmailLastNameButton.sendKeys("email");
+        activeStreamPage.okButton.click();
+    }
+
+    @Then("user clicks on Link button")
+    public void userClicksOnLinkButton() {
+        activeStreamPage.linkButton.click();
+        activeStreamPage.linkLinkURLButton.sendKeys("https://www.amazon.com/");
+        activeStreamPage.linkTextButton.sendKeys("Amazon");
+        activeStreamPage.linkSaveButton.click();
+    }
+
+    @Then("user clicks video Upload button")
+    public void userClicksVideoUploadButton() throws InterruptedException {
+        Thread.sleep(2000);
+        activeStreamPage.insertVideoButton.click();
+        Thread.sleep(2000);
+        activeStreamPage.videoURL.sendKeys("https://www.youtube.com/watch?v=Vao7T4__0Xw");
+        Thread.sleep(5000);
+        activeStreamPage.videoURLSaveButton.click();
+        Thread.sleep(2000);
+
     }
 }
 

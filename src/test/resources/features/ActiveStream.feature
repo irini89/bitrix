@@ -24,6 +24,7 @@ Feature: As a user, I should be able to send messages by clicking on Message tab
     Then user clicks emailUsers button
     Then user clicks on Link button
     Then user clicks video Upload button
+    Then user clicks on the Comma icon
 
     Examples:
       | username                | password |

@@ -85,12 +85,17 @@ public class ActiveStreamPage {
     @FindBy(xpath = "//span[@title='Insert video']")
     public WebElement insertVideoButton;
 
-    @FindBy(xpath = "//input[@id='video_idPostFormLHE_blogPostForm-source']")
+    @FindBy(xpath = "//input[@placeholder='YouTube or Vimeo video URL']")
     public WebElement videoURL;
 
+    @FindBy(id="video_idPostFormLHE_blogPostForm-size")
+    public WebElement videoSizeElement;
     @FindBy(xpath = "(//input[@id='undefined'])[2]")
-
     public WebElement videoURLSaveButton;
+
+    @FindBy (xpath = "//span[@id='bx-b-quote-blogPostForm']")
+    public WebElement commaButton;
+
 
 
     //  @FindBy(css = "button.ui-btn.ui-btn-lg.ui-btn-primary")

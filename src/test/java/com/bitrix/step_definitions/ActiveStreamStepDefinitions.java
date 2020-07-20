@@ -8,11 +8,14 @@ import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import io.cucumber.java.eo.Se;
 import org.junit.Assert;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
@@ -139,10 +142,22 @@ public class ActiveStreamStepDefinitions {
         Thread.sleep(2000);
         activeStreamPage.insertVideoButton.click();
         Thread.sleep(2000);
+
         activeStreamPage.videoURL.sendKeys("https://www.youtube.com/watch?v=Vao7T4__0Xw");
-        Thread.sleep(5000);
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 30);
+        wait.until(ExpectedConditions.visibilityOf(activeStreamPage.videoSizeElement));
+        Select select = new Select(activeStreamPage.videoSizeElement);
+
+        select.selectByVisibleText("560 x 315");
         activeStreamPage.videoURLSaveButton.click();
         Thread.sleep(2000);
+
+    }
+
+    @Then("user clicks on the Comma icon")
+    public void userClicksOnTheCommaIcon() throws InterruptedException {
+        Thread.sleep(2000);
+        activeStreamPage.commaButton.click();
 
     }
 }

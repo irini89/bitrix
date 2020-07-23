@@ -1,0 +1,8 @@
+com/bitrix/step_definitions/message.class
+com/bitrix/pages/ActiveStreamPage.class
+com/bitrix/step_definitions/Hook.class
+com/bitrix/utilities/Configuration_Reader.class
+com/bitrix/step_definitions/ActiveStreamStepDefinitions.class
+com/bitrix/utilities/Driver.class
+com/bitrix/pages/LoginPage.class
+com/bitrix/runners/CukesRunner.class

@@ -107,7 +107,8 @@ public class ActiveStreamStepDefinitions {
     }
 
     @Then("user clicks employees and departments button")
-    public void userClicksEmployeesAndDepartmentsButton() {
+    public void userClicksEmployeesAndDepartmentsButton()
+    {
         activeStreamPage.employeesAndDepartmentsElement.click();
     }
 

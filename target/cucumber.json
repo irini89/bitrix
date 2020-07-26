@@ -1,0 +1,260 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1183096000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user logs on the login page",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_logs_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-26T14:30:31.817Z",
+        "before": [
+          {
+            "result": {
+              "duration": 110050000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "hr4@cybertekschool.com should be able to click on upload files icon to upload files and pictures from local disks,",
+        "description": "  download from external drive, select documents from bixtrix24, and create files to upload.",
+        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;\u003cusername\u003e-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks-;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 573923000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //input[@name\u003d\u0027USER_LOGIN\u0027]\u0027 (tried for 10 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.bitrix.pages.LoginPage.login(LoginPage.java:35)\n\tat com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_username_and_password(ActiveStreamStepDefinitions.java:37)\n\tat ✽.user enters \"hr4@cybertekschool.com\" username and \"UserUser\" password(file:///Users/aylinbekem/IdeaProjects/bitrix/src/test/resources/features/ActiveStream.feature:10)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@name\u003d\u0027USER_LOGIN\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aylins-MBP.lan\u0027, ip: \u0027fe80:0:0:0:1a:e779:5338:f0fe%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/m3/rs35tdl94kl...}, goog:chromeOptions: {debuggerAddress: localhost:50253}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: fa93fb87fd147da1d1fd3d26d4608fc8\n*** Element info: {Using\u003dxpath, value\u003d//input[@name\u003d\u0027USER_LOGIN\u0027]}\n\tat jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.bitrix.pages.LoginPage.login(LoginPage.java:35)\n\tat com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_username_and_password(ActiveStreamStepDefinitions.java:37)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:564)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:44)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:64)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:198)\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:405)\n\tat java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)\n\tat java.base/java.lang.Thread.run(Thread.java:832)\n",
+              "duration": 10291784000,
+              "status": "failed"
+            },
+            "line": 10,
+            "name": "user enters \"hr4@cybertekschool.com\" username and \"UserUser\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr4@cybertekschool.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 50
+                }
+              ],
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 87000,
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "user enters dashpage",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_dashpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user clicks message button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksMessageButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "user clicks upload files",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndPicturesFromLocalDisks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "user clicks upload files and images from local disks",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndImagesFromLocalDisks()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "user select documents from Bitrix",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userSelectDocumentsFromBitrix()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user clicks select contact button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksSelectContactButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "user clicks recent button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRecentButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "user clicks employees and departments button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmployeesAndDepartmentsButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50000,
+              "status": "skipped"
+            },
+            "line": 23,
+            "name": "user clicks random email",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRandomEmail()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 52000,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user clicks emailUsers button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmailUsersButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "user clicks on Link button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnLinkButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 54000,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "user clicks video Upload button",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksVideoUploadButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51000,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "user clicks on the Comma icon",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnTheCommaIcon()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@bitrix"
+          }
+        ]
+      }
+    ],
+    "name": "As a user, I should be able to send messages by clicking on Message tab under Active Stream.",
+    "description": "",
+    "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ActiveStream.feature",
+    "tags": [
+      {
+        "name": "@bitrix",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

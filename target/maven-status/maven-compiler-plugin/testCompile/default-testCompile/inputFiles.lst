@@ -1,8 +1,0 @@
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/pages/LoginPage.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/pages/ActiveStreamPage.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/utilities/Configuration_Reader.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/utilities/Driver.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/step_definitions/ActiveStreamStepDefinitions.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/utilities/BrowserUtils.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/runners/CukesRunner.java
-/Users/aylinbekem/IdeaProjects/bitrix/src/test/java/com/bitrix/step_definitions/Hook.java

@@ -20,7 +20,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",//features content root
         glue = "com/bitrix/step_definitions", //glue source root
         dryRun = false,
-        tags = "@bitrix"
+        tags = "@bitrix1"
 
 )
 

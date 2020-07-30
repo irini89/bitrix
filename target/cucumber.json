@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 511384000,
+              "duration": 483000000,
               "status": "passed"
             },
             "line": 5,
@@ -24,11 +24,11 @@
         ]
       },
       {
-        "start_timestamp": "2020-07-26T15:15:10.608Z",
+        "start_timestamp": "2020-07-26T18:25:08.918Z",
         "before": [
           {
             "result": {
-              "duration": 1245258000,
+              "duration": 2490000000,
               "status": "passed"
             },
             "match": {
@@ -43,7 +43,7 @@
         "after": [
           {
             "result": {
-              "duration": 12215606000,
+              "duration": 1000000,
               "status": "passed"
             },
             "match": {
@@ -56,7 +56,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2586347000,
+              "duration": 2003000000,
               "status": "passed"
             },
             "line": 10,
@@ -78,7 +78,7 @@
           },
           {
             "result": {
-              "duration": 4787000,
+              "duration": 7000000,
               "status": "passed"
             },
             "line": 11,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 4063235000,
+              "duration": 4065000000,
               "status": "passed"
             },
             "line": 12,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 4090776000,
+              "duration": 4102000000,
               "status": "passed"
             },
             "line": 13,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 4098814000,
+              "duration": 4088000000,
               "status": "passed"
             },
             "line": 14,
@@ -126,7 +126,7 @@
           },
           {
             "result": {
-              "duration": 15638145000,
+              "duration": 15727000000,
               "status": "passed"
             },
             "line": 15,
@@ -138,7 +138,7 @@
           },
           {
             "result": {
-              "duration": 93248000,
+              "duration": 101000000,
               "status": "passed"
             },
             "line": 20,
@@ -150,7 +150,7 @@
           },
           {
             "result": {
-              "duration": 2128579000,
+              "duration": 2089000000,
               "status": "passed"
             },
             "line": 21,
@@ -162,7 +162,7 @@
           },
           {
             "result": {
-              "duration": 91714000,
+              "duration": 86000000,
               "status": "passed"
             },
             "line": 22,
@@ -174,7 +174,7 @@
           },
           {
             "result": {
-              "duration": 2081285000,
+              "duration": 2102000000,
               "status": "passed"
             },
             "line": 23,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 4542744000,
+              "duration": 4644000000,
               "status": "passed"
             },
             "line": 24,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 302851000,
+              "duration": 374000000,
               "status": "passed"
             },
             "line": 25,
@@ -210,9 +210,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[ChromeDriver: chrome on MAC (e0885dc9bf81f2753dd54911c216ab25)] -\u003e id: video_idPostFormLHE_blogPostForm-size] (tried for 30 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aylins-MBP.lan\u0027, ip: \u0027fe80:0:0:0:1a:e779:5338:f0fe%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/m3/rs35tdl94kl...}, goog:chromeOptions: {debuggerAddress: localhost:52214}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: e0885dc9bf81f2753dd54911c216ab25\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksVideoUploadButton(ActiveStreamStepDefinitions.java:149)\n\tat ✽.user clicks video Upload button(file:///Users/aylinbekem/IdeaProjects/bitrix/src/test/resources/features/ActiveStream.feature:26)\n",
-              "duration": 34686794000,
-              "status": "failed"
+              "duration": 19081000000,
+              "status": "passed"
             },
             "line": 26,
             "name": "user clicks video Upload button",
@@ -223,8 +222,8 @@
           },
           {
             "result": {
-              "duration": 35000,
-              "status": "skipped"
+              "duration": 2165000000,
+              "status": "passed"
             },
             "line": 27,
             "name": "user clicks on the Comma icon",
@@ -236,7 +235,7 @@
         ],
         "tags": [
           {
-            "name": "@bitrix"
+            "name": "@bitrix1"
           }
         ]
       }
@@ -248,523 +247,7 @@
     "uri": "file:src/test/resources/features/ActiveStream.feature",
     "tags": [
       {
-        "name": "@bitrix",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 334197000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user logs on the login page",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_logs_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-26T15:15:10.609Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1344566000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.bitrix.step_definitions.Hook.setUp()"
-            }
-          }
-        ],
-        "line": 31,
-        "name": "hr4@cybertekschool.com should be able to click on upload files icon to upload files and pictures from local disks,",
-        "description": "  download from external drive, select documents from bixtrix24, and create files to upload.",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;\u003cusername\u003e-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks-;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 1053421000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.bitrix.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2801813000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user enters \"hr4@cybertekschool.com\" username and \"UserUser\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr4@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 50
-                }
-              ],
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4553000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters dashpage",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_dashpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4061339000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks message button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksMessageButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4098831000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks upload files",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndPicturesFromLocalDisks()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4106246000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user clicks upload files and images from local disks",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndImagesFromLocalDisks()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15674813000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user select documents from Bitrix",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userSelectDocumentsFromBitrix()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 112049000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user clicks select contact button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksSelectContactButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2102871000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user clicks recent button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRecentButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 191864000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user clicks employees and departments button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmployeesAndDepartmentsButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2082342000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "user clicks random email",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRandomEmail()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4541905000,
-              "status": "passed"
-            },
-            "line": 24,
-            "name": "user clicks emailUsers button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmailUsersButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 281315000,
-              "status": "passed"
-            },
-            "line": 25,
-            "name": "user clicks on Link button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnLinkButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.WebDriverException: disconnected: not connected to DevTools\n  (Session info: chrome\u003d84.0.4147.89)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aylins-MBP.lan\u0027, ip: \u0027fe80:0:0:0:1a:e779:5338:f0fe%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/m3/rs35tdl94kl...}, goog:chromeOptions: {debuggerAddress: localhost:52213}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 65d4b58790ddf5d302c6b6bcc4dcfc4f\n*** Element info: {Using\u003did, value\u003dvideo_idPostFormLHE_blogPostForm-size}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksVideoUploadButton(ActiveStreamStepDefinitions.java:149)\n\tat ✽.user clicks video Upload button(file:///Users/aylinbekem/IdeaProjects/bitrix/src/test/resources/features/ActiveStream1.feature:26)\n",
-              "duration": 13228291000,
-              "status": "failed"
-            },
-            "line": 26,
-            "name": "user clicks video Upload button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksVideoUploadButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 70000,
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "user clicks on the Comma icon",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnTheCommaIcon()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@bitrix"
-          }
-        ]
-      }
-    ],
-    "name": "As a user, I should be able to send messages by clicking on Message tab under Active Stream.",
-    "description": "",
-    "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/ActiveStream1.feature",
-    "tags": [
-      {
-        "name": "@bitrix",
-        "type": "Tag",
-        "location": {
-          "line": 1,
-          "column": 1
-        }
-      }
-    ]
-  },
-  {
-    "line": 2,
-    "elements": [
-      {
-        "line": 4,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 359712000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user logs on the login page",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_logs_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-07-26T15:15:10.609Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1311809000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.bitrix.step_definitions.Hook.setUp()"
-            }
-          }
-        ],
-        "line": 31,
-        "name": "hr4@cybertekschool.com should be able to click on upload files icon to upload files and pictures from local disks,",
-        "description": "  download from external drive, select documents from bixtrix24, and create files to upload.",
-        "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.;\u003cusername\u003e-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks-;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 793673000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.bitrix.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2562657000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user enters \"hr4@cybertekschool.com\" username and \"UserUser\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"hr4@cybertekschool.com\"",
-                  "offset": 12
-                },
-                {
-                  "val": "\"UserUser\"",
-                  "offset": 50
-                }
-              ],
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6007000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters dashpage",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_dashpage()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4065963000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user clicks message button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksMessageButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4089439000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "user clicks upload files",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndPicturesFromLocalDisks()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 4085725000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user clicks upload files and images from local disks",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksUploadFilesAndImagesFromLocalDisks()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 15667343000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user select documents from Bitrix",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userSelectDocumentsFromBitrix()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 79663000,
-              "status": "passed"
-            },
-            "line": 20,
-            "name": "user clicks select contact button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksSelectContactButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2093243000,
-              "status": "passed"
-            },
-            "line": 21,
-            "name": "user clicks recent button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRecentButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 118268000,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "user clicks employees and departments button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmployeesAndDepartmentsButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 2078577000,
-              "status": "passed"
-            },
-            "line": 23,
-            "name": "user clicks random email",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksRandomEmail()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id\u003d\u0027invite_email_user_name\u0027]\"}\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Aylins-MBP.lan\u0027, ip: \u0027fe80:0:0:0:1a:e779:5338:f0fe%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.5\u0027, java.version: \u002714.0.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/m3/rs35tdl94kl...}, goog:chromeOptions: {debuggerAddress: localhost:52212}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: c4111135c66b866800f2363aa29ef59b\n*** Element info: {Using\u003dxpath, value\u003d//input[@id\u003d\u0027invite_email_user_name\u0027]}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy19.sendKeys(Unknown Source)\n\tat com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmailUsersButton(ActiveStreamStepDefinitions.java:128)\n\tat ✽.user clicks emailUsers button(file:///Users/aylinbekem/IdeaProjects/bitrix/src/test/resources/features/ActiveStream2.feature:24)\n",
-              "duration": 4407234000,
-              "status": "failed"
-            },
-            "line": 24,
-            "name": "user clicks emailUsers button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksEmailUsersButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 40000,
-              "status": "skipped"
-            },
-            "line": 25,
-            "name": "user clicks on Link button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnLinkButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 24000,
-              "status": "skipped"
-            },
-            "line": 26,
-            "name": "user clicks video Upload button",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksVideoUploadButton()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 23000,
-              "status": "skipped"
-            },
-            "line": 27,
-            "name": "user clicks on the Comma icon",
-            "match": {
-              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.userClicksOnTheCommaIcon()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@bitrix"
-          }
-        ]
-      }
-    ],
-    "name": "As a user, I should be able to send messages by clicking on Message tab under Active Stream.",
-    "description": "",
-    "id": "as-a-user--i-should-be-able-to-send-messages-by-clicking-on-message-tab-under-active-stream.",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/features/ActiveStream2.feature",
-    "tags": [
-      {
-        "name": "@bitrix",
+        "name": "@bitrix1",
         "type": "Tag",
         "location": {
           "line": 1,

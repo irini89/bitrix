@@ -1,3 +1,0 @@
-file:src/test/resources/features/ActiveStream.feature:31
-file:src/test/resources/features/ActiveStream1.feature:31
-file:src/test/resources/features/ActiveStream2.feature:31

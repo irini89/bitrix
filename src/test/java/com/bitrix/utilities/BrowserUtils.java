@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.Date;
 
-public class BrowserUtil {
+public class BrowserUtils {
 
 
     public static void takeScreenshot() {

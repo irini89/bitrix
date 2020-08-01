@@ -107,8 +107,7 @@ public class ActiveStreamStepDefinitions {
     }
 
     @Then("user clicks employees and departments button")
-    public void userClicksEmployeesAndDepartmentsButton()
-    {
+    public void userClicksEmployeesAndDepartmentsButton() {
         activeStreamPage.employeesAndDepartmentsElement.click();
     }
 
@@ -122,12 +121,7 @@ public class ActiveStreamStepDefinitions {
     public void userClicksEmailUsersButton() throws InterruptedException {
         Thread.sleep(2000);
         activeStreamPage.emailUsersButton.click();
-        activeStreamPage.inputBoxElement.sendKeys("email@email.com");
-        Thread.sleep(2000);
-
-        activeStreamPage.inviteEmailUserNameButton.sendKeys("email");
-        activeStreamPage.inviteEmailLastNameButton.sendKeys("email");
-        activeStreamPage.okButton.click();
+        activeStreamPage.emailemailButton.click();
     }
 
     @Then("user clicks on Link button")

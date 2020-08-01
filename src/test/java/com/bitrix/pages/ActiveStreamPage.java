@@ -96,7 +96,8 @@ public class ActiveStreamPage {
     @FindBy (xpath = "//span[@id='bx-b-quote-blogPostForm']")
     public WebElement commaButton;
 
-
+    @FindBy(xpath = "(//div[@class='bx-finder-box-item-t7-name'])[3]")
+    public WebElement emailemailButton;
 
     //  @FindBy(css = "button.ui-btn.ui-btn-lg.ui-btn-primary")
     //   public  WebElement sendButton;

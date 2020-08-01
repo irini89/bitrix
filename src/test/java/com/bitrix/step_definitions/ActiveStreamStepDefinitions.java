@@ -53,7 +53,7 @@ public class ActiveStreamStepDefinitions {
 
     @Then("^user clicks upload files$")
     public void userClicksUploadFilesAndPicturesFromLocalDisks() throws InterruptedException {
-        Thread.sleep(2000);
+        Thread.sleep(5000);
         activeStreamPage.clickuploadImageElement.click();
         Thread.sleep(2000);
 
@@ -121,12 +121,8 @@ public class ActiveStreamStepDefinitions {
     public void userClicksEmailUsersButton() throws InterruptedException {
         Thread.sleep(2000);
         activeStreamPage.emailUsersButton.click();
-        activeStreamPage.inputBoxElement.sendKeys("email@email.com");
-        Thread.sleep(2000);
+        activeStreamPage.emailemailButton.click();
 
-        activeStreamPage.inviteEmailUserNameButton.sendKeys("email");
-        activeStreamPage.inviteEmailLastNameButton.sendKeys("email");
-        activeStreamPage.okButton.click();
     }
 
     @Then("user clicks on Link button")

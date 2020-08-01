@@ -61,11 +61,11 @@ public class ActiveStreamPage {
     @FindBy(xpath = "//input[@id='feed-add-post-destination-input']")
     public WebElement inputBoxElement;
 
-    @FindBy(xpath = "//input[@id='invite_email_user_name']")
-    public  WebElement inviteEmailUserNameButton;
+    @FindBy(id = "destEmailTab_destination9364735")
+    public WebElement inviteEmailUserNameButton;
 
     @FindBy(xpath = "//input[@id='invite_email_user_last_name']")
-    public  WebElement inviteEmailLastNameButton;
+    public WebElement inviteEmailLastNameButton;
 
     @FindBy(xpath = "//span[@id='invite_email_user_button']")
     public WebElement okButton;
@@ -88,15 +88,16 @@ public class ActiveStreamPage {
     @FindBy(xpath = "//input[@placeholder='YouTube or Vimeo video URL']")
     public WebElement videoURL;
 
-    @FindBy(id="video_idPostFormLHE_blogPostForm-size")
+    @FindBy(id = "video_idPostFormLHE_blogPostForm-size")
     public WebElement videoSizeElement;
     @FindBy(xpath = "(//input[@id='undefined'])[2]")
     public WebElement videoURLSaveButton;
 
-    @FindBy (xpath = "//span[@id='bx-b-quote-blogPostForm']")
+    @FindBy(xpath = "//span[@id='bx-b-quote-blogPostForm']")
     public WebElement commaButton;
 
-
+    @FindBy(xpath = "(//div[@class='bx-finder-box-item-t7-name'])[3]")
+    public WebElement emailemailButton;
 
     //  @FindBy(css = "button.ui-btn.ui-btn-lg.ui-btn-primary")
     //   public  WebElement sendButton;

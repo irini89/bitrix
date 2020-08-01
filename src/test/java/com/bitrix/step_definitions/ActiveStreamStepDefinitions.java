@@ -122,7 +122,7 @@ public class ActiveStreamStepDefinitions {
         Thread.sleep(2000);
         activeStreamPage.emailUsersButton.click();
         activeStreamPage.emailemailButton.click();
-
+        activeStreamPage.closeButton.click();
     }
 
     @Then("user clicks on Link button")
@@ -155,6 +155,12 @@ public class ActiveStreamStepDefinitions {
         Thread.sleep(2000);
         activeStreamPage.commaButton.click();
 
+
+    }
+
+    @Then("user clicks on the mentioned icon")
+    public void userClicksOnTheMentionedIcon() {
+        activeStreamPage.mentionedbutton.click();
 
     }
 }

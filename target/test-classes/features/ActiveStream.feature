@@ -30,8 +30,8 @@ Feature: As a user, I should be able to send messages by clicking on Message tab
     Examples:
       | username                | password |
       | hr4@cybertekschool.com  | UserUser |
-    #  | marketing3@cybertekschool.com | UserUser |
-   #   | helpdesk4@cybertekschool.com  | UserUser |
+     # | marketing3@cybertekschool.com | UserUser |
+     #| helpdesk4@cybertekschool.com  | UserUser |
 
 
 

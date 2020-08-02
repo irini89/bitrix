@@ -24,7 +24,7 @@ public class Hook {
         if( scenario.isFailed()){
             BrowserUtils.takeScreenshot();
         }
-       //  Driver.closeDriver();
+        Driver.closeDriver();
 
     }
 

@@ -126,8 +126,9 @@ public class ActiveStreamStepDefinitions {
     }
 
     @Then("user clicks on Link button")
-    public void userClicksOnLinkButton() {
+    public void userClicksOnLinkButton() throws InterruptedException {
         activeStreamPage.linkButton.click();
+        Thread.sleep(3000);
         activeStreamPage.linkLinkURLButton.sendKeys("https://www.amazon.com/");
         activeStreamPage.linkTextButton.sendKeys("Amazon");
         activeStreamPage.linkSaveButton.click();

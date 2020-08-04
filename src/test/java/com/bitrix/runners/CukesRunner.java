@@ -14,7 +14,10 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        plugin = "html:target/cucumber-report.html",//creates report
+        plugin = {"json:target/cucumber.json",
+                "html:target/default-cucumber-reports",
+                "rerun:target/rerun.txt"
+        },
         features = "src/test/resources/features",//features content root
         glue = "com/bitrix/step_definitions", //glue source root
         dryRun = false,

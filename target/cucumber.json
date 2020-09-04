@@ -1,0 +1,211 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 499000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User logs on the login page.",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_logs_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-29T02:42:24.373Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6095000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "user hr4@cybertekschool.com  should be able to login to the bitrix page",
+        "description": "",
+        "id": "as-a-user-i-should-be-able-to-to-send-announcements-subheading-for-\"more\"-under-activity-stream.;user-\u003cusername\u003e-should-be-able-to-login-to-the-bitrix-page;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 656000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.bitrix.step_definitions.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 485000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters credentials \"hr4@cybertekschool.com \" username and \"UserUser\" password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"hr4@cybertekschool.com \"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"UserUser\"",
+                  "offset": 63
+                }
+              ],
+              "location": "com.bitrix.step_definitions.Announcement_page.user_enters_credentials_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user lands om the main page",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_lands_om_the_main_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user clicks on more Dropdown button",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_more_Dropdown_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user clicks on Announcement",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_Announcement()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user clicks on uppload files and pictures from local disk",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_uppload_files_and_pictures_from_local_disk()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user downloads from external drive",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_downloads_from_external_drive()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user selects documents from bitrix24",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_selects_documents_from_bitrix24()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user creates files to upload",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_creates_files_to_upload()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should be able to add users and recipients from selecting contact from E-mail and  employees",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_should_be_able_to_add_users_and_recipients_from_selecting_contact_from_E_mail_and_employees()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should be able to add users and recipients from selecting contact from recent contact list.",
+            "match": {
+              "location": "com.bitrix.step_definitions.Announcement_page.user_should_be_able_to_add_users_and_recipients_from_selecting_contact_from_recent_contact_list()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@babochka"
+          }
+        ]
+      }
+    ],
+    "name": "As a user i should be able to to send announcements subheading for \"More\" under Activity Stream.",
+    "description": "",
+    "id": "as-a-user-i-should-be-able-to-to-send-announcements-subheading-for-\"more\"-under-activity-stream.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Announcement.feature",
+    "tags": [
+      {
+        "name": "@babochka",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

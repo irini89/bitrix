@@ -1,3 +1,4 @@
+@announcement
 Feature: As a user I should be able to send anouncements from Anouncement subheading from "More" under the Activity Stream
   Background:
     Given user logs in on the login page

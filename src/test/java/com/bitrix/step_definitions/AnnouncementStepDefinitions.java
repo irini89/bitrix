@@ -47,7 +47,7 @@ public class AnnouncementStepDefinitions {
     public void user_clicks_on_upload_files_and_images() throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(Driver.getDriver(), 15, 100);
         WebElement uploadFileElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("(//input[@type='file'])[1]")));
-        uploadFileElement.sendKeys("/Users/desarairinitrydub/Desktop/src.png");
+        uploadFileElement.sendKeys("C:\\Users\\desar\\OneDrive\\Pictures\\Screenshots\\irini.png.jpg");
         Thread.sleep(1000);
     }
     @Then("user clicks on select Documents From Bitrix24")

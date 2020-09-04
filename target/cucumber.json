@@ -11,24 +11,24 @@
         "steps": [
           {
             "result": {
-              "duration": 499000000,
+              "duration": 565000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "User logs on the login page.",
+            "name": "user logs in on the login page",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_logs_on_the_login_page()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_logs_in_on_the_login_page()"
             },
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-29T02:42:24.373Z",
+        "start_timestamp": "2020-09-04T14:54:52.334Z",
         "before": [
           {
             "result": {
-              "duration": 6095000000,
+              "duration": 6153000000,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 24,
-        "name": "user hr4@cybertekschool.com  should be able to login to the bitrix page",
-        "description": "",
-        "id": "as-a-user-i-should-be-able-to-to-send-announcements-subheading-for-\"more\"-under-activity-stream.;user-\u003cusername\u003e-should-be-able-to-login-to-the-bitrix-page;;2",
+        "line": 27,
+        "name": "hr4@cybertekschool.com should be able to upload files, add users and recepients, attach links, insert videos,",
+        "description": "  create a quote, add mention, click on Visual editor, click on Topic icon, record video, add tags.",
+        "id": "as-a-user-i-should-be-able-to-send-anouncements-from-anouncement-subheading-from-\"more\"-under-the-activity-stream;\u003cusername\u003e-should-be-able-to-upload-files--add-users-and-recepients--attach-links--insert-videos-;;2",
         "after": [
           {
             "result": {
-              "duration": 656000000,
+              "duration": 799000000,
               "status": "passed"
             },
             "match": {
@@ -56,150 +56,198 @@
         "steps": [
           {
             "result": {
-              "duration": 485000000,
+              "duration": 2179000000,
               "status": "passed"
             },
-            "line": 9,
-            "name": "user enters credentials \"hr4@cybertekschool.com \" username and \"UserUser\" password",
+            "line": 7,
+            "name": "user enters credentials \"hr4@cybertekschool.com\" username and \"UserUser\" password",
             "match": {
               "arguments": [
                 {
-                  "val": "\"hr4@cybertekschool.com \"",
+                  "val": "\"hr4@cybertekschool.com\"",
                   "offset": 24
                 },
                 {
                   "val": "\"UserUser\"",
-                  "offset": 63
+                  "offset": 62
                 }
               ],
-              "location": "com.bitrix.step_definitions.Announcement_page.user_enters_credentials_username_and_password(java.lang.String,java.lang.String)"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_enters_credentials_username_and_password(java.lang.String,java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 11000000,
+              "duration": 14000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters dashpage",
+            "match": {
+              "location": "com.bitrix.step_definitions.ActiveStreamStepDefinitions.user_enters_dashpage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2065000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on more button",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_more_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2230000000,
               "status": "passed"
             },
             "line": 10,
-            "name": "user lands om the main page",
+            "name": "user clicks on announcement",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_lands_om_the_main_page()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_announcement()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2096000000,
               "status": "passed"
             },
             "line": 11,
-            "name": "user clicks on more Dropdown button",
+            "name": "user clicks on upload icon",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_more_Dropdown_button()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_upload_icon()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 1067000000,
               "status": "passed"
             },
             "line": 12,
-            "name": "user clicks on Announcement",
+            "name": "user clicks on upload files and images",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_Announcement()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_upload_files_and_images()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 4184000000,
               "status": "passed"
             },
             "line": 13,
-            "name": "user clicks on uppload files and pictures from local disk",
+            "name": "user clicks on select Documents From Bitrix24",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_clicks_on_uppload_files_and_pictures_from_local_disk()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_select_Documents_From_Bitrix24()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user downloads from external drive",
-            "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_downloads_from_external_drive()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user selects documents from bitrix24",
-            "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_selects_documents_from_bitrix24()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1000000,
+              "duration": 7433000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "user creates files to upload",
+            "name": "user clicks on add more and clicks on recents, employees and departments and email users",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_creates_files_to_upload()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_add_more_and_clicks_on_recents_employees_and_departments_and_email_users()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 5410000000,
               "status": "passed"
             },
-            "line": 18,
-            "name": "user should be able to add users and recipients from selecting contact from E-mail and  employees",
+            "line": 17,
+            "name": "user attaches a link by clicking on the link icon",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_should_be_able_to_add_users_and_recipients_from_selecting_contact_from_E_mail_and_employees()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_attaches_a_link_by_clicking_on_the_link_icon()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2070000000,
               "status": "passed"
             },
             "line": 19,
-            "name": "user should be able to add users and recipients from selecting contact from recent contact list.",
+            "name": "user creates a quote by clicking on the Coma icon",
             "match": {
-              "location": "com.bitrix.step_definitions.Announcement_page.user_should_be_able_to_add_users_and_recipients_from_selecting_contact_from_recent_contact_list()"
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_creates_a_quote_by_clicking_on_the_Coma_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2132000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user adds mention by clicking on the Add mention icon and selects contacts from the lists provided in dropdown.",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_adds_mention_by_clicking_on_the_Add_mention_icon_and_selects_contacts_from_the_lists_provided_in_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1056000000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user clicks on Visual Editor and sees the editor text-bar displays on top of the message box.",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_Visual_Editor_and_sees_the_editor_text_bar_displays_on_top_of_the_message_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2070000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user clicks on the Topic icon to see the annoucement Topic text box displays on top of the message box.",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_clicks_on_the_Topic_icon_to_see_the_annoucement_Topic_text_box_displays_on_top_of_the_message_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1090000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user adds tags by selecting existing tags or creating new tags by clicking on the # icon.",
+            "match": {
+              "location": "com.bitrix.step_definitions.AnnouncementStepDefinitions.user_adds_tags_by_selecting_existing_tags_or_creating_new_tags_by_clicking_on_the_icon()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@babochka"
+            "name": "@announcement"
           }
         ]
       }
     ],
-    "name": "As a user i should be able to to send announcements subheading for \"More\" under Activity Stream.",
+    "name": "As a user I should be able to send anouncements from Anouncement subheading from \"More\" under the Activity Stream",
     "description": "",
-    "id": "as-a-user-i-should-be-able-to-to-send-announcements-subheading-for-\"more\"-under-activity-stream.",
+    "id": "as-a-user-i-should-be-able-to-send-anouncements-from-anouncement-subheading-from-\"more\"-under-the-activity-stream",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Announcement.feature",
     "tags": [
       {
-        "name": "@babochka",
+        "name": "@announcement",
         "type": "Tag",
         "location": {
           "line": 1,
